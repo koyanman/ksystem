@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres # PostgresのIPアドレス/ポート番号/DB名
+    username: postgres # Postgresのユーザ名
+    password: postgres # Postgresのパスワード
+    driver-class-name: org.postgresql.Driver # PostgresのJDBCドライバ
+
+  jpa:
+    hibernate:
+      ddl-auto: update # @Entityに対応するテーブルが無ければ作成
