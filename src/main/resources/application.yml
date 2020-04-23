@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres # PostgresのIPアドレス/ポート番号/DB名
-    username: postgres # Postgresのユーザ名
-    password: postgres # Postgresのパスワード
+    url: jdbc:postgresql://vnxkieiytblopp:9b067c34f14900068c0ac33ee761cb70a1d6360ce4aac977c6f482ce3857ff61@ec2-18-233-137-77.compute-1.amazonaws.com:5432/d2f58mc30blje0
+    username: vnxkieiytblopp# Postgresのユーザ名
+    password: 9b067c34f14900068c0ac33ee761cb70a1d6360ce4aac977c6f482ce3857ff61 # Postgresのパスワード
     driver-class-name: org.postgresql.Driver # PostgresのJDBCドライバ
 
   jpa:
